@@ -1,2 +1,2 @@
-import './gulp/gulp-dev';
+import './gulp/gulp-init';
 import './gulp/gulp-test';
