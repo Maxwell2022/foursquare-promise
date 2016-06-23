@@ -2,10 +2,9 @@ import request from 'request-promise';
 import _ from 'lodash';
 
 class Resource {
-  constructor(id, secret, accessToken, redirectUrl) {
+  constructor({ id, secret, redirectUrl }) {
     this.clientId = id;
     this.clientSecret = secret;
-    this.accessToken = accessToken;
     this.redirectUrl = redirectUrl;
     this.client = request.defaults({
       baseUrl: this.host,
