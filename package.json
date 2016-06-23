@@ -1,0 +1,45 @@
+{
+  "name": "foursquare-promise",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Foursquare Library",
+  "repository": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxime",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-transform-async-to-module-method": "^6.8.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "bluebird": "^3.4.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-friendly-formatter": "^2.0.5",
+    "eslint-plugin-import": "^1.9.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "mocha": "^2.5.3",
+    "nock": "^8.0.0",
+    "run-sequence": "^1.2.1",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
+    "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "app-module-path": "^1.1.0",
+    "lodash": "^4.13.1",
+    "request-promise": "^3.0.0"
+  }
+}
